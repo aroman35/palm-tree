@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalmTree.Abstractions", "PalmTree.Abstractions\PalmTree.Abstractions.csproj", "{84C3BF0C-F959-4B6E-A1BD-9457EA4FAC31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalmTree.Silo", "PalmTree.Silo\PalmTree.Silo.csproj", "{0D93A1BC-F56F-4D22-9B52-903DF1C74F48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84C3BF0C-F959-4B6E-A1BD-9457EA4FAC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C3BF0C-F959-4B6E-A1BD-9457EA4FAC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C3BF0C-F959-4B6E-A1BD-9457EA4FAC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C3BF0C-F959-4B6E-A1BD-9457EA4FAC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D93A1BC-F56F-4D22-9B52-903DF1C74F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D93A1BC-F56F-4D22-9B52-903DF1C74F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D93A1BC-F56F-4D22-9B52-903DF1C74F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D93A1BC-F56F-4D22-9B52-903DF1C74F48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
