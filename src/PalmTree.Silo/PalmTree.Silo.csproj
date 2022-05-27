@@ -5,10 +5,13 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <UserSecretsId>dotnet-PalmTree.Silo-8B276B2E-B7DD-4813-B02A-AA44C7C3011F</UserSecretsId>
+        <DockerfileTag>palm-tree-silo</DockerfileTag>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+        <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
     </ItemGroup>
 
     <ItemGroup>
